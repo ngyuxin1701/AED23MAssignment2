@@ -1,0 +1,306 @@
+body {
+  margin: 0;
+  background-color: #01273a;
+}
+
+ul.menu {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #feaa64;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5vw;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a, .dropbtn {
+  display: block;
+  color: #651e02;
+  text-align: center;
+  padding: 1vw 2vw;
+  text-decoration: none;
+}
+
+.menu li a.active {
+  background-color: #fe6a00;
+  color: #ffffff;
+}
+
+.menu li a:hover:not(.active), .dropdown:hover .dropbtn:not(.active) {
+  background-color: #8a8a8a;
+  color: #ffffff;
+}
+
+.menu li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #feaa64;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #651e02;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+ background-color: #8a8a8a;
+ color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h1 {
+  color: #f1bd12;
+  font-family: 'Averia Sans Libre', helvetica, sans-serif;
+  text-align: center;
+  font-size: 6vw;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 3vw;
+}
+
+p {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 2vw;
+  margin: 1vw 5vw;
+}
+
+p a {
+  text-decoration: underline;
+  color: #feaa64;
+}
+
+p a:hover {
+  color: #fe6a00;
+}
+
+iframe {
+  height: 60vw;
+  width: 80vw;
+  margin: 0 9vw;
+}
+
+div.game {
+  margin-left: 6vw;
+  width: 15vw;
+  height: 15vw;
+  border: 1vw solid #ffffff;
+  float: left;
+}
+
+div.game:hover {
+  border: 1vw solid #8a8a8a;;
+}
+
+div.game img {
+  width: 100%;
+  height: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer p {
+  background-color: #feaa64;
+  color: #651e02;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1.5vw;
+  text-align: center;
+  padding: 1vw;
+  margin: 0;
+  margin-top: 10vw;
+}
+
+ul.general {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: left;
+  font-size: 2vw;
+  margin: 0 8%;
+}
+
+.general li a {
+  text-decoration: underline;
+  color: #feaa64;
+}
+
+.general li a:hover {
+  color: #fe6a00;
+}
+
+img.rules {
+  width: 70vw;
+  height: auto;
+  margin: 2vw 14vw 0vw 14vw;
+}
+
+table.tiers {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 2vw;
+  margin: auto;
+  border: 1px solid #ffffff;
+}
+
+.tiers th, td {
+  border: 1px solid #ffffff;
+  padding: 1vw;
+  margin: 0;
+}
+
+.tiers a {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.tiers a:hover {
+  color: #feaa64;
+}
+
+ol.shop {
+  list-style-type: lower-alpha;
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: left;
+  font-size: 2vw;
+  margin: 0 8%;
+}
+
+.shop li a {
+  text-decoration: underline;
+  color: #feaa64;
+}
+
+.shop li a:hover {
+  color: #fe6a00;
+}
+
+table.pets {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: center;
+  font-size: 2vw;
+  margin: 0 0 1vw 30vw;
+  border: 1px solid #ffffff;
+  width: 62vw;
+}
+
+.pets th, td {
+  border: 1px solid #ffffff;
+  padding: 1vw;
+  margin: 0;
+}
+
+.pets a {
+  text-decoration: underline;
+  color: #feaa64;
+}
+
+.pets a:hover {
+  color: #fe6a00;
+}
+
+div.pet {
+  margin-left: 5vw;
+  width: 20vw;
+  height: 28vw;
+  border: 1vw solid #f1bd12;
+  background-color: #000000;
+  float: left;
+}
+
+div.pet img {
+  width: 100%;
+  height: auto;
+}
+
+div.index {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  margin-left: 93vw;
+  background-color: #feaa64;
+  max-width: 5w;
+  text-align: center;
+}
+
+.index a {
+  color: #651e02;
+  text-decoration: none;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1vw;
+}
+
+.index:hover {
+  background-color: #fe6a00;
+}
+
+.index a:hover {
+  color: #ffffff;
+}
+
+div.food {
+  margin: 0 0 2vw 8vw;
+  width: 35vw;
+  height: 15vw;
+  border: 1vw solid #f1bd12;
+  background-color: #000000;
+  float: left;
+}
+
+.food img {
+  height: 15vw;
+  width: auto;
+  float: left;
+  margin-right: 1vw;
+}
+
+.food p {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2vw;
+  text-align: center;
+  margin: auto;
+  padding: 1.5vw 1vw;
+}
+
+img.custom {
+  display: block;
+  margin: auto;
+  width: 70vw;
+  height: auto;
+}
+
+ol.history li {
+  color: #ffffff;
+  font-family: helvetica, arial, sans-serif;
+  text-align: left;
+  font-size: 2vw;
+  margin: 0 8%;
+}
+  
